@@ -1,11 +1,24 @@
-import Navbar2 from "./components/Navbar2";
+import Visions from "./components2/Visions";
+import Heros from "./components2/Heros"
+import Services from "./components2/Services";
+import Abouts from "./components2/Abouts";
+import Technologys from "./components2/Technologys";
+import Contacts from "./components2/Contacts";
+
 
 
 
 function App() {
   return (
     <>
-  <Navbar2 />
+    <Heros />
+   <Visions/>
+   <Services/>
+   <Abouts />
+   <Technologys/>
+   <Contacts/>
+     
+    
     </>
   );
 }
