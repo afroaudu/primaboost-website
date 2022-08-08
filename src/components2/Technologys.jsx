@@ -28,8 +28,8 @@ const Technologys = () => {
     
         <div className="w-full min-h-screen bg-white px-20 py-20">
       <div className="  mx-11 text-base"> 
-      <h1 className="flex justify-center text-5xl text-cyan-500 mb-9">Our Services</h1>
-      <p className='flex justify-center text-zinc-800'>Some of our services include <br></br>
+      <h1 className="flex justify-center text-6xl text-cyan-500 mb-9">Our Services</h1>
+      <p className='text-large flex justify-center text-zinc-800'>Some of our services include <br></br>
       </p>
       
       <div className='grid grid-cols-4 place-items-center mt-16'>
