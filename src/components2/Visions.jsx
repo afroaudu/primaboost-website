@@ -8,7 +8,7 @@ const backgroundImage = {
 
 const Visions = () => {
   return (
-    <div>
+    <div id='visions'>
         
     <div className="px-20 py-60 w-full min-h-screen" style={backgroundImage}>
     <div className=" font-oswald max-w-4xl mx-20">

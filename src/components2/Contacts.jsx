@@ -11,7 +11,7 @@ const backgroundImage = {
 const Contacts
  = () => {
   return (
-    <div>
+    <div id='contacts'>
          
          
         

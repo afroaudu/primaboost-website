@@ -26,7 +26,7 @@ const githubLogo = {
 const Technologys = () => {
   return (
     
-        <div className="w-full min-h-screen bg-white px-20 py-20">
+        <div id='technologys' className= "w-full min-h-screen bg-white px-20 py-20">
       <div className=" font-oswald mx-20 text-base"> 
       <h1 className="flex justify-center text-5xl md:text-6xl text-cyan-500 mb-9">Our Services</h1>
       <p className='text-large flex justify-center text-zinc-800'>Some of our services include <br></br>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import logo from "../images/primabooster.png";
 
 const Navbars = ({toggle}) => {
@@ -31,7 +31,7 @@ const Navbars = ({toggle}) => {
           <div className="text-sm ml-10 pr-0 md:block hidden">
             
               <Link
-                to="/"
+                to="#" smooth
                 className=" p-2 md:p-4  text-slate-500 hover:text-cyan-500 duration-500 "
               >
                 Home
@@ -40,7 +40,7 @@ const Navbars = ({toggle}) => {
 
       
               <Link
-                to="/visions"
+                to="#visions" smooth
                 className=" p-2 md:p-4  text-slate-500 hover:text-cyan-500 duration-500 "
               >
                 Vision
@@ -48,7 +48,7 @@ const Navbars = ({toggle}) => {
             
 
               <Link
-                to="/services"
+                to="#services" smooth
                 className=" p-2 md:p-4 text-slate-500 hover:text-cyan-500 duration-500 "
               >
                 Services
@@ -56,21 +56,21 @@ const Navbars = ({toggle}) => {
          
            
               <Link
-                to="/abouts"
+                to="#abouts" smooth
                 className=" p-2 md:p-4  text-slate-500 hover:text-cyan-500 duration-500 "
               >
                 About
               </Link>
             
               <Link
-                to="/technologys"
+                to="#technologys" smooth
                 className=" p-2 md:p-4 t text-slate-500 hover:text-cyan-500 duration-500 "
               >
                 Technology
               </Link>
            
               <Link
-                to="/contacts"
+                to="#contacts" smooth
                 className=" p-2 md:p-4  text-slate-500 hover:text-cyan-500 duration-500 "
               >
                 Contacts

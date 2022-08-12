@@ -7,7 +7,7 @@ const backgroundImage = {
   }; 
 const Abouts = () => {
   return (
-    <div>
+    <div id='abouts'>
          
         
         <div className=" w-full min-h-screen" style={backgroundImage}>
