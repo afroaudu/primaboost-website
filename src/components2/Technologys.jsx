@@ -27,12 +27,12 @@ const Technologys = () => {
   return (
     
         <div className="w-full min-h-screen bg-white px-20 py-20">
-      <div className="  mx-11 text-base"> 
-      <h1 className="flex justify-center text-6xl text-cyan-500 mb-9">Our Services</h1>
+      <div className=" font-oswald mx-20 text-base"> 
+      <h1 className="flex justify-center text-5xl md:text-6xl text-cyan-500 mb-9">Our Services</h1>
       <p className='text-large flex justify-center text-zinc-800'>Some of our services include <br></br>
       </p>
       
-      <div className='grid grid-cols-4 place-items-center mt-16'>
+      <div className='grid md:grid-cols-4 grid-cols-2 place-items-center mt-16 gap-y-14 gap-x-0 my-9'>
         <div className='w-16 h-16 bg-black' style={jsLogo}>
         </div>
         <div className='w-16 h-16 bg-black' style={figmaLogo}>
@@ -41,9 +41,7 @@ const Technologys = () => {
         </div>
         <div className='w-16 h-16 bg-black' style={microsoftLogo}>
         </div>
-      </div>
-
-      <div className='grid grid-cols-4 place-items-center mt-16'>
+    
         <div className='w-16 h-16 bg-black' style={jsLogo}>
         </div>
         <div className='w-16 h-16 bg-black' style={figmaLogo}>
@@ -52,9 +50,9 @@ const Technologys = () => {
         </div>
         <div className='w-16 h-16 bg-black' style={microsoftLogo}>
         </div>
-      </div>
+      
 
-      <div className='grid grid-cols-4 place-items-center mt-16'>
+     
         <div className='w-16 h-16 bg-black' style={jsLogo}>
         </div>
         <div className='w-16 h-16 bg-black' style={figmaLogo}>
@@ -63,9 +61,7 @@ const Technologys = () => {
         </div>
         <div className='w-16 h-16 bg-black' style={microsoftLogo}>
         </div>
-      </div>
 
-      <div className='grid grid-cols-4 place-items-center mt-16'>
         <div className='w-16 h-16 bg-black' style={jsLogo}>
         </div>
         <div className='w-16 h-16 bg-black' style={figmaLogo}>
@@ -74,9 +70,9 @@ const Technologys = () => {
         </div>
         <div className='w-16 h-16 bg-black' style={microsoftLogo}>
         </div>
-      </div>
+     
 
-      <div className='grid grid-cols-4 place-items-center mt-16'>
+      
         <div className='w-16 h-16 bg-black' style={jsLogo}>
         </div>
         <div className='w-16 h-16 bg-black' style={figmaLogo}>

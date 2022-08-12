@@ -11,9 +11,9 @@ const Visions = () => {
     <div>
         
     <div className="px-20 py-60 w-full min-h-screen" style={backgroundImage}>
-    <div className="max-w-4xl mx-11">
-    <h1 className="text-6xl  text-yellow-500 mb-9">Our Vision</h1>
-      <p className='text-lg text-white'>Primaboost helps you design applications for the serverless stack.
+    <div className=" font-oswald max-w-4xl mx-20">
+    <h1 className="md:text-6xl text-5xl text-yellow-500 mb-9">Our Vision</h1>
+      <p className='md:text-lg text-sm text-white'>Primaboost helps you design applications for the serverless stack.
   
   Through our proven methodology, we assist you in making architectural decisions that<br></br>
    maximise performance and best practises, simplify migration of legacy applications to  <br></br>

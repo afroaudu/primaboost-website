@@ -5,9 +5,9 @@ const Services = () => {
   return (
     <div>
         <div className="w-full min-h-screen bg-white px-20 py-40">
-      <div className=" max-w-4xl mx-11 text-base"> 
-      <h1 className="text-5xl text-cyan-500 mb-9">Our Services</h1>
-      <p className='text-zinc-800'>Some of our services include <br></br>
+      <div className="font-oswald max-w-4xl mx-20 "> 
+      <h1 className="text-5xl md:text-6xl text-cyan-500 mb-9">Our Services</h1>
+      <p className='text-sm md:text-base text-zinc-800'>Some of our services include <br></br>
       <br></br>
 Serverless Consulting - <br></br>
 Primaboost assists you in developing apps for the serverless stack while keeping costs in mind. In addition, we assist you in making architectural decisions that enhance performance and best practices.
