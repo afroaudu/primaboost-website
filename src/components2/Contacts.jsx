@@ -21,7 +21,7 @@ const Contacts
          <h1 className="md:text-5xl text-4xl text-yellow-500 mb-9">Get in touch with us!</h1>
            <p className='text-white'>We would love to speak with you.
            <br></br>
-            Please feel free to send us an email</p>
+            Please feel free to send us an e-mail</p>
             
          </div>
          <img className=" ml-10 my-7 md:w-80 w-60 px-9 " src={logo} alt="" />
